@@ -53,7 +53,7 @@ public class Main {
             e.printStackTrace();
         }
         for (int i = 0;i<fireCases.size();i++){
-            System.out.println("Case"+ i);
+            System.out.println("Case"+ (i+1));
             fireCases.get(i).printPaths();
             System.out.println("-----------------------------");
         }

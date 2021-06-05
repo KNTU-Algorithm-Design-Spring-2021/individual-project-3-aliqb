@@ -23,7 +23,7 @@ public class Graph {
         findPathsWithDfs(source,destination,visited,currentPath,paths);
         return paths;
     }
-    public void findPathsWithDfs(int source,int destination,boolean []visited,ArrayList currentPath,ArrayList<ArrayList> paths){
+    private void findPathsWithDfs(int source,int destination,boolean []visited,ArrayList currentPath,ArrayList<ArrayList> paths){
         if(source == destination){
             paths.add((ArrayList) currentPath.clone());
             return;
